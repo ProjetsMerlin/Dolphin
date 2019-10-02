@@ -23,6 +23,7 @@ git branch -> affiche la branche courrante
 git branch ma-branchee -> ajout d'une nouvelle branche
 git checkout ma-branche -> se placer dans une branche
 git checkout -b ma-branche -> raccourci des 2 commandes précédentes : on créé et on s'y place
+git branch -d ma-branche -> supprime la branche
 git merge brancheB -> met à jour la branche actuelle vers la branche détaillée
 
 git blame nomdufichier.extension -> voir le détails des modifications des fichiers - retourne un code par ligne
@@ -33,3 +34,4 @@ git show coderetourné -> détaille de la modification
 git stash -> arreter le travail en cours et passer sur d'autres branches
 git stash pop -> reprendre le travail quin'est pas terminé
 git stash apply -> la commande stash pop delete stash. Pour la garder, ajouter apply
+git push origin --delete [nom_de_la_branche]
