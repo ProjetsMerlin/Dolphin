@@ -35,3 +35,7 @@ git stash -> arreter le travail en cours et passer sur d'autres branches
 git stash pop -> reprendre le travail quin'est pas terminé
 git stash apply -> la commande stash pop delete stash. Pour la garder, ajouter apply
 git push origin --delete [nom_de_la_branche] -> supprime une branche sur Github
+
+principale :
+
+git commit -a -m "commentaires" -> met à jour tout le travail
