@@ -24,3 +24,6 @@ git branch ma-branchee -> ajout d'une nouvelle branche
 git checkout ma-branche -> se placer dans une branche
 git checkout -b ma-branche -> raccourci des 2 commandes précédentes : on créé et on s'y place
 git merge brancheB -> met à jour la branche actuelle vers la branche détaillée
+
+git blame nomdufichier.extension -> voir le détails des modifications des fichiers - retourne un code par ligne
+git show coderetourné -> détaille de la modification
