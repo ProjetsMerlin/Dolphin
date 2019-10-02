@@ -1,0 +1,23 @@
+Une fois dans le dossier à l'aide de cd ...
+-------------------------------------------
+
+git init -> initie le dossier
+git log -> aperçu de toutes les modifs
+
+git add test.php -> maj du versionning de ce fichier - git add . pour tout le dossier
+git commit -m "commentaire" -> maj du versionning si fichier modifié avec commentaire
+git commit -a -m "commentaire" Raccourci pour faire la maj du versionning de tous les fichiers du dossier
+
+git checkout SHADuCommit -> revenir à cette version
+git checkout master -> revenir à la branche principale
+git revert SHADuCommit -> annulé cette versiont git
+git revert --hard -> tout annulé
+
+git clone https://github.com/GitHM/POO-PHP-tutorial -> cloner un projet sur sa machine
+git push origin master -> mettre son projet sur github
+git pull origin master -> mettre à jour son projet local depuis github
+
+git branch -> affiche la branche courrante
+git branch nouvelle branche -> ajout d'une nouvelle branche
+git checkout nouvelle-branche -> se placer dans cette nouvelle branche
+git checkout -b ma-branche ->
