@@ -1,5 +1,5 @@
 # Radis
-Résumé des commandes git bash
+<h2>Résumé des commandes git bash</h2>
 <br>
 git init -> initie le dossier en cours au versionning<br>
 git log -> aperçu du versionning<br>
@@ -32,7 +32,7 @@ git show coderetourné -> détaille de la modification<br>
 .gitignore -> nom du fichier qui liste les chemins des fichiers qu'il ne faut pas publiés !!
 <br>
 git stash -> arreter le travail en cours et passer sur d'autres branches<br><br>
-git stash pop -> reprendre le travail quin'est pas terminé<br>
+git stash pop -> reprendre le travail qui n'est pas terminé<br>
 git stash apply -> la commande stash pop delete stash. Pour la garder, ajouter apply<br>
 git push origin --delete [nom_de_la_branche] -> supprime une branche sur Github<br>
 <br>
