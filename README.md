@@ -1,9 +1,9 @@
 # Radis
 Résumé des commandes git bash
-
-git init -> initie le dossier en cours au versionning
-git log -> aperçu du versionning
-git status -> statut du versionning
+<br>
+git init -> initie le dossier en cours au versionning<br>
+git log -> aperçu du versionning<br>
+git status -> statut du versionning<br>
 
 git add test.php -> maj du fichier dans le versionning
 git add . -> maj de tout le dossier dans le versionning
