@@ -40,3 +40,10 @@ principale :<br>
 <br>
 git commit -a -m "commentaires" -> met à jour tout le travail<br>
 <br>
+Au départe :
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ProjetsMerlin/pumpskin.git
+git push -u origin main
