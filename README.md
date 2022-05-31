@@ -46,4 +46,5 @@ git add README.md ()<br>
 git commit -m "first commit"<br>
 git branch -M main<br>
 git remote add origin https://github.com/ProjetsMerlin/nomDuProjet.git<br>
+git remote set-url origin git@github.com:ProjetsMerlin/nomDuProjet.git<br>
 git push -u origin main<br>
