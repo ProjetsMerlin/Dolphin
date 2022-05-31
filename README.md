@@ -36,15 +36,16 @@ git stash pop -> reprendre le travail qui n'est pas terminé<br>
 git stash apply -> la commande stash pop delete stash. Pour la garder, ajouter apply<br>
 git push origin --delete [nom_de_la_branche] -> supprime une branche sur Github<br>
 <br>
-principale :<br>
+Résume :<br>
 <br>
-git commit -a -m "commentaires" -> met à jour tout le travail<br>
-<br>
-Au départ :
-git init<br>
-git add README.md ()<br>
-git commit -m "first commit"<br>
-git branch -M main<br>
-git remote add origin https://github.com/ProjetsMerlin/nomDuProjet.git<br>
-git remote set-url origin git@github.com:ProjetsMerlin/nomDuProjet.git<br>
-git push -u origin main<br>
+1 .ssh-keygen<br>
+2. copier-coller sha256 ... dans la key deploy zone<br>
+3. vérifier la connexion : ssh -T git@github.com<br>
+4. command git :<br>
+  git init<br>
+  git add README.md ()<br>
+  git commit -m "first commit"<br>
+  git branch -M main<br>
+  git remote set-url origin git@github.com:ProjetsMerlin/nomDuProjet.git<br>
+  git push -u origin main<br>
+5. Commit !<br>
