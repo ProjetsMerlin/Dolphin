@@ -47,5 +47,6 @@ Résume :<br>
   git commit -m "first commit"<br>
   git branch -M main<br>
   git remote set-url origin git@github.com:ProjetsMerlin/nomDuProjet.git<br>
+  ou git remote --add main git@github.com:ProjetsMerlin/virgin.git<br>
   git push -u origin main<br>
 5. Commit !<br>
