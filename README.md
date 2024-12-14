@@ -1,52 +1,95 @@
-# Radis
-<h2>Résumé des commandes git bash</h2>
-<br>
-git init -> initie le dossier en cours au versionning<br>
-git log -> aperçu du versionning<br>
-git status -> statut du versionning<br>
-<br>
-git add test.php -> maj du fichier dans le versionning<br>
-git add . -> maj de tout le dossier dans le versionning<br>
-git commit -m "commentaire" -> maj du versionning si fichier modifié avec commentaire<br>
-git commit -a -m "commentaire" -> Raccourci pour faire la maj du versionning de tous les fichiers du dossier
-<br>
-git checkout SHADuCommit -> revenir à cette version<br>
-git checkout master -> revenir à la branche principale<br>
-git revert SHADuCommit -> annulé cette versiont git<br>
-git revert --hard -> tout annulé<br>
-<br>
-git clone https://github.com/GitHM/POO-PHP-tutorial -> cloner un projet sur sa machine<br>
-git push origin master -> mettre son projet sur github<br>
-git pull origin master -> mettre à jour son projet local depuis github<br>
-<br>
-git branch -> affiche la branche courrante<br>
-git branch ma-branchee -> ajout d'une nouvelle branche<br>
-git checkout ma-branche -> se placer dans une branche<br>
-git checkout -b ma-branche -> raccourci des 2 commandes précédentes : on créé et on s'y place<br>
-git branch -d ma-branche -> supprime la branche<br>
-git merge brancheB -> met à jour la branche actuelle vers la branche détaillée<br>
-<br>
-git blame nomdufichier.extension -> voir le détails des modifications des fichiers - retourne un code par ligne<br>
-git show coderetourné -> détaille de la modification<br>
-<br>
-.gitignore -> nom du fichier qui liste les chemins des fichiers qu'il ne faut pas publiés !!
-<br>
-git stash -> arreter le travail en cours et passer sur d'autres branches<br><br>
-git stash pop -> reprendre le travail qui n'est pas terminé<br>
-git stash apply -> la commande stash pop delete stash. Pour la garder, ajouter apply<br>
-git push origin --delete [nom_de_la_branche] -> supprime une branche sur Github<br>
-<br>
-Résume :<br>
-<br>
-1 .ssh-keygen<br>
-2. copier-coller sha256 ... dans la key deploy zone<br>
-3. vérifier la connexion : ssh -T git@github.com<br>
-4. command git :<br>
-  git init<br>
-  git add README.md ()<br>
-  git commit -m "first commit"<br>
-  git branch -M main<br>
-  git remote set-url origin git@github.com:ProjetsMerlin/nomDuProjet.git<br>
-  ou git remote --add main git@github.com:ProjetsMerlin/virgin.git<br>
-  git push -u origin main<br>
-5. Commit !<br>
+# Dolphin
+
+## Introduction
+
+Le projet "Dolphin" a 2 objectifs :
+
+1. Il donne à travers ce fichier "**.md**" un exemple de l'utilisation du langage **"Markdown"**
+2. Il liste une série de commandes _GIT_ pour la mise en place d'un projet _versionné_
+
+## Résumé des commandes principales
+
+```
+.ssh-keygen
+copier-coller sha256 ... dans la key deploy zone
+vérifier la connexion : ssh -T git@github.com
+command git :
+    git init
+    git commit -a -m "first commit"
+    git push origin main
+```
+
+## Liste des commandes
+
+| Commandes  | Explications |
+| ------------- |-------------|
+|   git init   | initie le dossier en cours au versionning |
+|   git log    | aperçu du versionning |
+|   git status | statut du versionning |
+|   git add test.php    |   maj du fichier dans le versionning  |
+|   git add .   |   maj de tout le dossier dans le versionning  |
+|   git commit -m "commentaire" |   maj du versionning si fichier modifié avec commentaire  |
+|   git commit -a -m "commentaire"  |   Raccourci pour faire la maj du versionning de tous les fichiers du dossie   r
+|   git checkout SHADuCommit    |   revenir à cette version |
+|   git checkout master |   revenir à la branche principale |
+|   git revert SHADuCommit  |   annulé cette versiont git   |
+|   git revert --hard   |   tout annulé |
+|   git clone https://github.com/GitHM/POO-PHP-tutorial |   cloner un projet sur sa machine |
+|   git push origin master  |   mettre son projet sur github    |
+|   git pull origin master  |   mettre à jour son projet local depuis github    |
+|   git branch  |   affiche la branche courrante    |
+|   git branch ma-branchee  |   ajout d'une nouvelle branche    |
+|   git checkout ma-branche |   se placer dans une branche  |
+|   git checkout -b ma-branche  |   raccourci des 2 commandes précédentes : on créé et on s'y place |
+|   git branch -d ma-branche    |   supprime la branche |
+|   git merge brancheB  |   met à jour la branche actuelle vers la branche détaillée    |
+|   git blame nomdufichier.extension    |   voir le détails des modifications des fichiers - retourne un code par ligne |
+|   git show coderetourné   |   détaille de la modification |
+|   .gitignore  |   nom du fichier qui liste les chemins des fichiers qu'il ne faut pas publiés !   !
+|   git stash   |   arreter le travail en cours et passer sur d'autres branches|    |
+|   git stash pop   |   reprendre le travail qui n'est pas terminé  |
+|   git stash apply |   la commande stash pop delete stash. Pour la garder, ajouter apply   |
+|   git push origin --delete [nom_de_la_branche]    |   supprime une branche sur Github |
+
+
+### Encore un dernier exemple pour créer une liste avec Markdown
+
+###### List Unordered
+* Déjà pris
+    * Dolphin ✓
+    * Carassin ✓
+    * Vulcain ✓
+* Pas Pris
+    * Babouin
+    * Capucin
+    * Chien viverrin
+    * Crevette arlequin
+    * Dendrobate arlequin
+    * Faucon pélerin
+    * Grand murin
+    * Lamantin
+    * Lapin
+    * Lérotin
+    * Marlin
+    * Muscardin
+    * Pingouin
+    * Pigeon colombin
+    * Ragondin
+    * Requin
+    * Tamarin
+
+
+## Images
+![Dolphin](/image/doplphin.jpg "Ceci est une image de Dauphin.")
+
+## Lien du projet
+Voilà le lien du projet : [ici](https://markdownlivepreview.com/).
+
+## Blockquotes
+
+> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
+>
+>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+
+
+Réalisé par `lintermediaire.be`.
