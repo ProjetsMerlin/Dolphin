@@ -80,10 +80,10 @@ command git :
 
 
 ## Images
-![Dolphin](/image/doplphin.jpg "Ceci est une image de Dauphin.")
+![Dolphin](https://projetsmerlin.github.io/Dolphin/image/doplphin.jpg "Ceci est une image de Dauphin.")
 
 ## Lien du projet
-Voilà le lien du projet : [ici](https://markdownlivepreview.com/).
+Voilà le lien du projet : [ici](https://projetsmerlin.github.io/Dolphin/).
 
 ## Blockquotes
 > Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
