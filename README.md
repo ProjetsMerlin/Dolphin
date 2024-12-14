@@ -80,7 +80,7 @@ command git :
 
 
 ## Images
-![Dolphin](image/dolpphin.jpg "Ceci est une image de Dauphin.")
+![Dolphin](image/dolphin.jpg "Ceci est une image de Dauphin.")
 
 ## Lien du projet
 Voilà le lien du projet : [ici](https://projetsmerlin.github.io/Dolphin/).
