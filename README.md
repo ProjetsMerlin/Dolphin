@@ -64,7 +64,6 @@ command git :
     * Capucin
     * Chien viverrin
     * Crevette arlequin
-    * Dendrobate arlequin
     * Faucon pélerin
     * Grand murin
     * Lamantin
@@ -72,8 +71,6 @@ command git :
     * Lérotin
     * Marlin
     * Muscardin
-    * Pingouin
-    * Pigeon colombin
     * Ragondin
     * Requin
     * Tamarin
