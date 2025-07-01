@@ -45,7 +45,7 @@ command git :
 |   git merge brancheB  |   met à jour la branche actuelle vers la branche détaillée    |
 |   git blame nomdufichier.extension    |   voir le détails des modifications des fichiers - retourne un code par ligne |
 |   git show coderetourné   |   détaille de la modification |
-|   .gitignore  |   nom du fichier qui liste les chemins des fichiers qu'il ne faut pas publiés !   !
+|   .gitignore  |   nom du fichier qui liste les chemins des fichiers qu'il ne faut pas publier |
 |   git stash   |   arreter le travail en cours et passer sur d'autres branches|    |
 |   git stash pop   |   reprendre le travail qui n'est pas terminé  |
 |   git stash apply |   la commande stash pop delete stash. Pour la garder, ajouter apply   |
