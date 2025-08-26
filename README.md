@@ -59,22 +59,23 @@ command git :
     * Dolphin ✓
     * Carassin ✓
     * Vulcain ✓
+    * Marlin ✓
+    * Pingouin ✓
+    * Babouin ✓
+    * Pelerin ✓
+    * Tamarin ✓
+    * Lérotin ✓
+    * Lamantin ✓
+
 * Pas Pris
-    * Babouin
     * Capucin
-    * Chien viverrin
-    * Crevette arlequin
-    * Faucon pélerin
+    * Viverrin
+    * Arlequin
     * Grand murin
-    * Lamantin
     * Lapin
-    * Lérotin
-    * Marlin
     * Muscardin
     * Ragondin
     * Requin
-    * Tamarin
-
 
 ## Images
 ![Dolphin](image/dolphin.jpg "Ceci est une image de Dauphin.")
